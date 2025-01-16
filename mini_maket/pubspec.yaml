@@ -1,0 +1,35 @@
+name: mini_maket
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.1 
+  http_parser: ^4.0.1 # Hỗ trợ phân tích HTTP header
+  http: 1.2.2 # Gửi và nhận HTTP request
+  shared_preferences: ^2.0.15 # Lưu trữ dữ liệu cục bộ như token
+  english_words: ^4.0.0 # Bộ từ tiếng Anh mẫu (có thể loại bỏ nếu không dùng)
+  provider: ^6.0.0 # Quản lý trạng thái (State Management)
+  file_picker: ^8.1.7
+  path_provider: ^2.0.10
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0 # Cấu hình linter để kiểm tra lỗi code
+
+flutter:
+  uses-material-design: true # Hỗ trợ Material Design
+
+  # Cấu hình thư mục assets để sử dụng hình ảnh
+  assets:
+    - assets/images/ # Thư mục chứa ảnh
